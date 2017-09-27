@@ -45,7 +45,7 @@ public class HelloWorldBot {
 		//Types code into notepad
 		TimeUnit.SECONDS.sleep(1);
 	
-		String lineOne = "class HelloWorld{";
+		String lineOne = "class HeloWorld{";
 		Character[] lineOneCharArray = stringToChar(lineOne);
 		connectToBot(lineOneCharArray);
 		robb.keyPress(KeyEvent.VK_ENTER);
